@@ -17,7 +17,7 @@ import Mod from './models/switchMods';
 import Foam from './models/Foam';
 import Diy from './models/Diy';
 import Footer from './models/Footer';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
