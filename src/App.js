@@ -17,14 +17,14 @@ import Mod from './models/switchMods';
 import Foam from './models/Foam';
 import Diy from './models/Diy';
 import Footer from './models/Footer';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
       <div className="font-HelveticaRoundedBold m-0 border-0 tracking-wide box-border">
         <Nav />
-        <Routes>
+        <Switch>
           <Route path="/wikeeb" element={<Home />} />
           <Route path="/wikeeb/introduction" element={<Introduction />} />
           <Route path="/wikeeb/introduction/introduction_to_mechanical_keyboards" element={<Intro />} />
@@ -41,7 +41,7 @@ function App() {
           <Route path="/wikeeb/advanced/additional_switch_modifications" element={<Mod />} />
           <Route path="/wikeeb/advanced/keyboard_foam" element={<Foam />} />
           <Route path="/wikeeb/advanced/diy_modifications" element={<Diy />} />
-        </Routes>
+        </Switch>
         <Footer />
       </div>
     </Router>
