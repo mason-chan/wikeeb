@@ -2,7 +2,7 @@
 
 Wikeeb is a wiki style page created for learning about all things custom mechanical keyboards.
 
-![Wikeeb](/wikeeb/src/img/WiKeeb.png?raw=true)
+![Wikeeb](src/img/WiKeeb.png?raw=true)
 
 ## Purpose
 
