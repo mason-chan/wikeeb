@@ -1,5 +1,4 @@
 import './index.css'
-import 'react-multi-carousel/lib/styles.css';
 import Nav from './models/Nav';
 import Home from './models/Home';
 import Introduction from './models/Introduction';
