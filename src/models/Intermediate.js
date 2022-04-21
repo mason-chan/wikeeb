@@ -15,9 +15,9 @@ const Intermediate = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <a href="/wikeeb/intermediate/plate_material" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={plate} alt="Daisy Plate" />
-                            </div>
+                            </a>
                             <div>
                                 <p className="text-gray-500 text-sm">Credits: KPRepublic via kprepublic.com</p>
                             </div>
@@ -29,7 +29,7 @@ const Intermediate = () => {
                                 </h1>
                                 <p className="mx-auto text-base text-gray-500  lg:text-xl md:max-w-3xl pb-5">Plates hold each switch into place and different materials can alter the sound and feel of your keyboard build. 
                                 Plates are also a crucial component that connects the inside of the keyboard with its case.</p>
-                                <a href="introduction/introduction_to_mechanical_keyboards" className="text-center text-first text-xl"><u>Read more ➜</u></a>
+                                <a href="/wikeeb/intermediate/plate_material" className="text-center text-first text-xl"><u>Read more ➜</u></a>
                             </div>
                         </div>
                     </div>
@@ -39,9 +39,9 @@ const Intermediate = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <a href="/wikeeb/intermediate/keyboard_mounting_styles" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={mounting} alt="Jacky Design Piggy60 Keyboard" />
-                            </div>
+                            </a>
                             <div>
                                 <p className="text-gray-500 text-sm">Credits: Jacky Design via jackylab.com</p>
                             </div>
@@ -53,7 +53,7 @@ const Intermediate = () => {
                                 </h1>
                                 <p className="mx-auto text-base text-gray-500  lg:text-xl md:max-w-3xl pb-5">Just like a car, the mounting style of a keyboard plays a role in its technical 'performance' when it comes to feel and sound of a keyboard. Different mounting styles offer different typing feel 
                                 and acoustics with how the plate assembly interacts with the case.</p>
-                                <a href="introduction/introduction_to_mechanical_keyboards" className="text-center text-first text-xl"><u>Read more ➜</u></a>
+                                <a href="/wikeeb/intermediate/keyboard_mounting_styles" className="text-center text-first text-xl"><u>Read more ➜</u></a>
                             </div>
                         </div>
                     </div>
@@ -63,9 +63,9 @@ const Intermediate = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <a href="/wikeeb/intermediate/lubing" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={lubing} alt="Glorious Lubing Station" />
-                            </div>
+                            </a>
                             <div>
                                 <p className="text-gray-500 text-sm">Credits: Glorious PC Gaming Race via pcgamingrace.com</p>
                             </div>
@@ -77,7 +77,7 @@ const Intermediate = () => {
                                 </h1>
                                 <p className="mx-auto text-base text-gray-500  lg:text-xl md:max-w-3xl pb-5">Lubing your keyboard is what makes or breaks the acoustics. Using switches and stabilizers dry will just make your custom keyboard sound like you just bought a stock board online. Lubing is crucial to achieving 
                                 peak smoothness and sound, as it is one of the most important modifications that can be done to a keyboard.</p>
-                                <a href="introduction/introduction_to_mechanical_keyboards" className="text-center text-first text-xl"><u>Read more ➜</u></a>
+                                <a href="/wikeeb/intermediate/lubing" className="text-center text-first text-xl"><u>Read more ➜</u></a>
                             </div>
                         </div>
                     </div>

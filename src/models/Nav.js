@@ -20,26 +20,26 @@ class Nav extends React.Component {
             <header className="w-full px-8 text-second bg-first">
                 <div className="container flex flex-row flex-wrap justify-between py-5 mx-auto lg:flex-row lg:items-center max-w-[100%] ">
                     <div className="relative flex flex-row justify-between md:flex-row">
-                        <a href="/" className="flex items-center mb-0 font-medium text-gray-900 lg:w-auto md:items-center md:justify-center">
+                        <a href="/wikeeb" className="flex items-center mb-0 font-medium text-gray-900 lg:w-auto md:items-center md:justify-center">
                             <div className="self-center text-second text-3xl">
                                 <h1>WiKeeb</h1>
                             </div>
                         </a>
                         <nav className="hidden flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-6 md:border-l md:border-gray-200 md:flex">
                             <a className="mr-5 px-4 py-2 font-semibold leading-6 text-second bg-transparent rounded-lg hover:bg-second hover:text-first"
-                                href="/">
+                                href="/wikeeb">
                                 Home
                             </a>
                             <a className="mr-5 px-4 py-2 font-semibold leading-6 text-second bg-transparent rounded-lg hover:bg-second hover:text-first"
-                                href="/introduction">
+                                href="/wikeeb/introduction">
                                 Introduction
                             </a>
                             <a className="mr-5 px-4 py-2 font-semibold leading-6 text-second bg-transparent rounded-lg hover:bg-second hover:text-first"
-                                href="/intermediate">
+                                href="/wikeeb/intermediate">
                                 Intermediate
                             </a>
                             <a className="mr-5 px-4 py-2 font-semibold leading-6 text-second bg-transparent rounded-lg hover:bg-second hover:text-first"
-                                href="/advanced">
+                                href="/wikeeb/advanced">
                                 Advanced
                             </a>
                         </nav>
@@ -76,27 +76,27 @@ class Nav extends React.Component {
                 >
                     <nav className="w-full flex flex-wrap items-center text-base text-center md:mb-0 divide-y divide-slate-800">
                         <a
-                            href="/"
+                            href="/wikeeb"
                             className="w-full px-4 py-2 font-semibold leading-10 text-first bg-transparent hover:bg-gray-200"
                         >
                             Home
                         </a>
                         <a
-                            href="/introduction"
+                            href="/wikeeb/introduction"
                             className="w-full px-4 py-2 font-semibold leading-10 text-first bg-transparent hover:bg-gray-200"
 
                         >
                             Introduction
                         </a>
                         <a
-                            href="/intermediate"
+                            href="/wikeeb/intermediate"
                             className="w-full px-4 py-2 font-semibold leading-10 text-first bg-transparent hover:bg-gray-200"
 
                         >
                             Intermediate
                         </a>
                         <a
-                            href="/advanced"
+                            href="/wikeeb/advanced"
                             className="w-full px-4 py-2 font-semibold leading-10 text-first bg-transparent hover:bg-gray-200"
 
                         >

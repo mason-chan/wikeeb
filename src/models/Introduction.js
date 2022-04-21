@@ -18,7 +18,7 @@ const Introduction = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <a href="/introduction/introduction_to_mechanical_keyboards" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <a href="/wikeeb/introduction/introduction_to_mechanical_keyboards" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={iron165} alt="Iron165 Keyboard" />
                             </a>
                             <div>
@@ -41,7 +41,7 @@ const Introduction = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <a href="/introduction/keyboard_layouts_and_sizes" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <a href="/wikeeb/introduction/keyboard_layouts_and_sizes" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={tgrAlice} alt="TGR Alice Keyboard" />
                             </a>
                             <div>
@@ -65,7 +65,7 @@ const Introduction = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <a href="/introduction/keycaps" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <a href="/wikeeb/introduction/keycaps" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={keycaps} alt="GMK Noel and GMK Peach Blossom" />
                             </a>
                             <div>
@@ -89,7 +89,7 @@ const Introduction = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <a href="/introduction/switches" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <a href="/wikeeb/introduction/switches" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={alpaca} alt="Alpaca Switches" />
                             </a>
                             <div>
@@ -113,7 +113,7 @@ const Introduction = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <a href="/introduction/stabilizers" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <a href="/wikeeb/introduction/stabilizers" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={stabs} alt="c3 Stabilizers"/>
                             </a>
                             <div>
@@ -137,7 +137,7 @@ const Introduction = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <a href="/introduction/community" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <a href="/wikeeb/introduction/community" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={meetup} alt="Keyboard Meetup" />
                             </a>
                             <div>

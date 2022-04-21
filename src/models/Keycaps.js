@@ -404,7 +404,7 @@ const Keycaps = () => {
             </section>
             <section className="px-2 py-12 bg-white md:px-0 text-first">
                 <div className="container max-w-7xl px-8 mx-auto xl:px-5 text-right">
-                    <a href="/introduction/switches" className="inline-flex items-center w-full px-6 py-3 text-xl font-medium  text-second bg-first md:px-3 md:w-auto rounded-xl lg:px-5 hover:bg-second hover:text-first focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-second">Switches ➜</a>
+                    <a href="/wikeeb/introduction/switches" className="inline-flex items-center w-full px-6 py-3 text-xl font-medium  text-second bg-first md:px-3 md:w-auto rounded-xl lg:px-5 hover:bg-second hover:text-first focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-second">Switches ➜</a>
                 </div>
             </section>
 

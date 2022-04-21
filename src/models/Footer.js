@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <section className="text-second bg-first body-font">
             <div className="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
-                <a href="/" className="text-xl leading-none select-none logo">WiKeeb</a>
+                <a href="/wikeeb" className="text-xl leading-none select-none logo">WiKeeb</a>
                 <p className="mt-4 text-sm text-white sm:ml-4 sm:pl-4 sm:border-l sm:border-second sm:mt-0">© 2022 Machkeys</p>
                 <span className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
                     <a href="https://www.instagram.com/mach_keys/" className="hover:text-white">
