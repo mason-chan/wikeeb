@@ -2,6 +2,8 @@
 
 Wikeeb is a wiki style page created for learning about all things custom mechanical keyboards.
 
+[View live here!](https://mctekno.github.io/wikeeb/)
+
 ![Wikeeb](src/img/WiKeeb.png?raw=true)
 
 ## Purpose
