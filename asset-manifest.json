@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wikeeb/static/css/main.6969820a.css",
-    "main.js": "/wikeeb/static/js/main.7c979e0b.js",
+    "main.css": "/wikeeb/static/css/main.f31d76b1.css",
+    "main.js": "/wikeeb/static/js/main.f2109088.js",
     "static/js/787.228f302a.chunk.js": "/wikeeb/static/js/787.228f302a.chunk.js",
     "static/media/kl90.JPG": "/wikeeb/static/media/kl90.3945a165e97cdc17fee9.JPG",
     "static/media/pearl40.jpg": "/wikeeb/static/media/pearl40.2ea28f96be3881b0bbbe.jpg",
@@ -55,12 +55,12 @@
     "static/media/HelveticaRounded Bold.ttf": "/wikeeb/static/media/HelveticaRounded Bold.dc8a48638114fbb73b3b.ttf",
     "static/media/extension.jpg": "/wikeeb/static/media/extension.e8bf1f0179e0f638bfd6.jpg",
     "index.html": "/wikeeb/index.html",
-    "main.6969820a.css.map": "/wikeeb/static/css/main.6969820a.css.map",
-    "main.7c979e0b.js.map": "/wikeeb/static/js/main.7c979e0b.js.map",
+    "main.f31d76b1.css.map": "/wikeeb/static/css/main.f31d76b1.css.map",
+    "main.f2109088.js.map": "/wikeeb/static/js/main.f2109088.js.map",
     "787.228f302a.chunk.js.map": "/wikeeb/static/js/787.228f302a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6969820a.css",
-    "static/js/main.7c979e0b.js"
+    "static/css/main.f31d76b1.css",
+    "static/js/main.f2109088.js"
   ]
 }
