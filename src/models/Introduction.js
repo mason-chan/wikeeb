@@ -4,6 +4,7 @@ import keycaps from '../img/keycaps.jpg';
 import alpaca from '../img/alpaca.jpeg';
 import stabs from '../img/c3_stabs.jpg';
 import meetup from '../img/meetup.jpg';
+import { Link } from 'react-router-dom';
 
 const Introduction = () => {
     return (
@@ -18,9 +19,9 @@ const Introduction = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <a href="/wikeeb/introduction/introduction_to_mechanical_keyboards" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/introduction_to_mechanical_keyboards" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={iron165} alt="Iron165 Keyboard" />
-                            </a>
+                            </Link>
                             <div>
                                 <p className="text-gray-500 text-sm">Credits: @JiFen via zFrontier</p>
                             </div>
@@ -31,7 +32,7 @@ const Introduction = () => {
                                     <span className="block xl:inline">Introduction to Mechanical Keyboards</span>
                                 </h1>
                                 <p className="mx-auto text-base text-gray-500 lg:text-xl md:max-w-3xl pb-5">A mechanical keyboard is basically a keyboard that utilizes mechanical switches in order to register a key press.</p>
-                                <a href="introduction/introduction_to_mechanical_keyboards" className="text-center text-first text-xl"><u>Read more ➜</u></a> 
+                                <Link to="/introduction/introduction_to_mechanical_keyboards" className="text-center text-first text-xl"><u>Read more ➜</u></Link> 
                             </div>
                         </div>
                     </div>
@@ -41,9 +42,9 @@ const Introduction = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <a href="/wikeeb/introduction/keyboard_layouts_and_sizes" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/keyboard_layouts_and_sizes" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={tgrAlice} alt="TGR Alice Keyboard" />
-                            </a>
+                            </Link>
                             <div>
                                 <p className="text-gray-500 text-sm">Credits: @taehatypes via Twitter</p>
                             </div>
@@ -55,7 +56,7 @@ const Introduction = () => {
                                 </h1>
                                 <p className="mx-auto text-base text-gray-500  lg:text-xl md:max-w-3xl pb-5">You are probably familiar with the full-size keyboard or tenkey-less keyboard, but the custom mechanical keyboard world opens up a whole variety of different sizes and layouts to suit your needs. 
                                 Ranging from the very popular 65% layout all the way to split ergonomic keyboards, there is definitely something out there that will fulfill your needs of functionality.</p>
-                                <a href="introduction/keyboard_layouts_and_sizes" className="text-center text-first text-xl"><u>Read more ➜</u></a>
+                                <Link to="/introduction/keyboard_layouts_and_sizes" className="text-center text-first text-xl"><u>Read more ➜</u></Link>
                             </div>
                         </div>
                     </div>
@@ -65,9 +66,9 @@ const Introduction = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <a href="/wikeeb/introduction/keycaps" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/keycaps" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={keycaps} alt="GMK Noel and GMK Peach Blossom" />
-                            </a>
+                            </Link>
                             <div>
                                 <p className="text-gray-500 text-sm">Credits: u/coookiecurls via Reddit</p>
                             </div>
@@ -79,7 +80,7 @@ const Introduction = () => {
                                 </h1>
                                 <p className="mx-auto text-base text-gray-500  lg:text-xl md:max-w-3xl pb-5">Don't underestimate these little pieces of plastic. Keycaps can drastically impact the way your keyboard sounds, feels and also heavily impacts the 
                                 aesthetic of your build. You'll be seeing these the most and interacting with them the most, so choosing the right keycaps for you can make or break your overall experience.</p>
-                                <a href="introduction/keycaps" className="text-center text-first text-xl"><u>Read more ➜</u></a>
+                                <Link to="/introduction/keycaps" className="text-center text-first text-xl"><u>Read more ➜</u></Link>
                             </div>
                         </div>
                     </div>
@@ -89,9 +90,9 @@ const Introduction = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <a href="/wikeeb/introduction/switches" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/switches" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={alpaca} alt="Alpaca Switches" />
-                            </a>
+                            </Link>
                             <div>
                                 <p className="text-gray-500 text-sm">Credits: ThereminGoat via theremingoat.com</p>
                             </div>
@@ -103,7 +104,7 @@ const Introduction = () => {
                                 </h1>
                                 <p className="mx-auto text-base text-gray-500  lg:text-xl md:max-w-3xl pb-5">A mechanical keyboard won't be 'mechanical' without these little non-edible candies. Nowadays there are so many switch options, it is easy to get lost and stuck on 
                                 what to choose for your build, as switches are the essense of the mechanical keyboard hobby. Knowing the in's and out's of a switch will largely impact your typing experience and ASMR satisfaction.</p>
-                                <a href="introduction/switches" className="text-center text-first text-xl"><u>Read more ➜</u></a>
+                                <Link to="/introduction/switches" className="text-center text-first text-xl"><u>Read more ➜</u></Link>
                             </div>
                         </div>
                     </div>
@@ -113,9 +114,9 @@ const Introduction = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <a href="/wikeeb/introduction/stabilizers" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/stabilizers" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={stabs} alt="c3 Stabilizers"/>
-                            </a>
+                            </Link>
                             <div>
                                 <p className="text-gray-500 text-sm">Credits: Zion Studios PH via zionstudios.ph</p>
                             </div>
@@ -127,7 +128,7 @@ const Introduction = () => {
                                 </h1>
                                 <p className="mx-auto text-base text-gray-500  lg:text-xl md:max-w-3xl pb-5">For all those extra long keys, stabilizers (commonly referred to as 'stabs' in the keyboard world) are used to help support these larger keys from wobbling. If you didn't use these for 
                                 the necessary keys, your keycaps will just end up turning into a see-saw.</p>
-                                <a href="introduction/stabilizers" className="text-center text-first text-xl"><u>Read more ➜</u></a>
+                                <Link to="/introduction/stabilizers" className="text-center text-first text-xl"><u>Read more ➜</u></Link>
                             </div>
                         </div>
                     </div>
@@ -137,9 +138,9 @@ const Introduction = () => {
                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                         <div className="w-full md:w-1/2 md:px-5">
-                            <a href="/wikeeb/introduction/community" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/community" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={meetup} alt="Keyboard Meetup" />
-                            </a>
+                            </Link>
                             <div>
                                 <p className="text-gray-500 text-sm">Credits: Andrew Lekashman via Kono.Store Blog</p>
                             </div>
@@ -151,7 +152,7 @@ const Introduction = () => {
                                 </h1>
                                 <p className="mx-auto text-base text-gray-500  lg:text-xl md:max-w-3xl pb-5">Although the keyboard hobby is constantly growing, it is still a relatively niche hobby, and so, it comes with its own unique 
                                 quirks that every enthusiast will likely experience throughout their journey. We'll talk about these quirks that make the custom mechanical keyboard hobby what it is.</p>
-                                <a href="introduction/community" className="text-center text-first text-xl"><u>Read more ➜</u></a>
+                                <Link to="/introduction/community" className="text-center text-first text-xl"><u>Read more ➜</u></Link>
                             </div>
                         </div>
                     </div>

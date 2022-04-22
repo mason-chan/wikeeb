@@ -21,6 +21,8 @@ import police from '../img/police.jpg';
 import atlas from '../img/atlas.jpg';
 import ergodox from '../img/ergodox.jpg';
 import ramam6c from '../img/ramam6c.jpg';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 
 const KeyboardSize = () => {
@@ -29,10 +31,8 @@ const KeyboardSize = () => {
             <section className="px-2 py-12 bg-white text-first md:px-0">
                 <div className="container flex flex-col items-center max-w-7xl px-8 mx-auto xl:px-5">
                     <h1 className="text-5xl font-bold tracking-tight text-center pb-10">Keyboard Layout and Sizes</h1>
-
                 </div>
             </section>
-
             <section className="px-2 py-12 md:px-0 bg-white text-first">
                 <div className="w-full mx-auto space-y-5 sm:py-8 md:py-12 sm:pace-y-8 md:space-y-16 max-w-7xl">
                     <div className="flex flex-col items-center sm:px-5 md:flex-row">
@@ -45,10 +45,10 @@ const KeyboardSize = () => {
                                 <h1 className="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl">Table of Contents</h1>
                                 <p className="pt-2 text-2xl pl-5">Keyboard Layout and Sizes</p>
                                 <ul className="pl-16 text-lg list-disc">
-                                    <li><a href="#traditional" className="underline">The Traditional Full-Size Keyboard</a></li>
-                                    <li><a href="#sizes" className="underline">Keyboard Sizes</a></li>
-                                    <li><a href="#layouts" className="underline">Keyboard Layouts</a></li>
-                                    <li><a href="#unique" className="underline">Unique Layouts and Sizes</a></li>
+                                    <li><HashLink to="#traditional" className="underline">The Traditional Full-Size Keyboard</HashLink></li>
+                                    <li><HashLink to="#sizes" className="underline">Keyboard Sizes</HashLink></li>
+                                    <li><HashLink to="#layouts" className="underline">Keyboard Layouts</HashLink></li>
+                                    <li><HashLink to="#unique" className="underline">Unique Layouts and Sizes</HashLink></li>
                                 </ul>
 
                             </div>
@@ -82,25 +82,25 @@ const KeyboardSize = () => {
                             <div className="container max-w-6xl mx-auto">
                                 <div className="grid grid-cols-3 gap-8 mt-10 sm:grid-cols-6 lg:grid-cols-9 sm:px-8 xl:px-0 text-center">
                                     <div className="relative flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                                        <a href="/introduction/introduction_to_mechanical_keyboards" className="w-full h-44 relative overflow-hidden shadow-xl">
+                                        <div className="w-full h-44 relative overflow-hidden shadow-xl">
                                             <img src={hbcp} alt="HBCP Keyboard" className="absolute scale-110 xl:scale-100" />
-                                        </a>
+                                        </div>
                                         <h4 className="text-2xl font-medium text-first">100% a.k.a Full-size</h4>
                                         <p className="text-lg text-center text-gray-600">The traditional keyboard size, with everything you could ever need for day-to-day use. These are actually rather scarce as many enthusiasts prefer using smaller sizes. This keyboard shown is actually called an 1800 layout, and we will talk more about this later.</p>
                                         <p className="text-base italic text-first">Credits: TaehaTypes<br /> Keyboard: Hineybush HBCP</p>
                                     </div>
                                     <div className="flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                                        <a href="/introduction/keyboard_layouts_and_sizes" className="w-full h-44 relative overflow-hidden shadow-xl">
+                                        <div className="w-full h-44 relative overflow-hidden shadow-xl">
                                             <img src={tgrJane} alt="TGR Jane v2 Keyboard" className="absolute bottom-0 scale-125" />
-                                        </a>
+                                        </div>
                                         <h4 className="text-2xl font-medium text-first">80% a.k.a TKL</h4>
                                         <p className="text-lg text-center text-gray-600">The same as a full-size, minus the numpad. This is the next common size when it comes to keyboards in general, and are commonly referred to as a TKL (tenkey-less).</p>
                                         <p className="text-base italic text-first">Credits: TaehaTypes<br />Keyboard: TGR Jane v2</p>
                                     </div>
                                     <div className="flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                                        <a href="/introduction/keycaps" className="w-full h-44 relative overflow-hidden shadow-xl">
+                                        <div className="w-full h-44 relative overflow-hidden shadow-xl">
                                             <img src={keycult} alt="Keycult 1/60 Keyboard" className="absolute -bottom-2 scale-125" />
-                                        </a>
+                                        </div>
                                         <h4 className="text-2xl font-medium text-first pt-3">60% a.k.a Compact</h4>
                                         <p className="text-lg text-center text-gray-600">This size removes everything from a full-size except for the necessary alphas and modifiers. This size was popularized due to the gaming community for its balance between size and functionality.</p>
                                         <p className="text-base italic text-first">Credits: TaehaTypes<br />Keyboard: Keycult 1/60</p>
@@ -115,25 +115,25 @@ const KeyboardSize = () => {
                             <div className="container max-w-6xl mx-auto">
                                 <div className="grid grid-cols-3 gap-8 mt-10 sm:grid-cols-6 lg:grid-cols-9 sm:px-8 xl:px-0 text-center">
                                     <div className="relative flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                                        <a href="/introduction/introduction_to_mechanical_keyboards" className="w-full h-44 relative overflow-hidden shadow-xl">
+                                        <div className="w-full h-44 relative overflow-hidden shadow-xl">
                                             <img src={gok7v} alt="7V Keyboard" className="absolute scale-125 xl:scale-110" />
-                                        </a>
+                                        </div>
                                         <h4 className="text-2xl font-medium text-first">75%</h4>
                                         <p className="text-lg text-center text-gray-600">The 75% is essentially a compact version of a TKL. It takes away some navigation keys but keeps the arrow keys and function row.</p>
                                         <p className="text-base italic text-first">Credits: Gok<br />Keyboard: 7v</p>
                                     </div>
                                     <div className="flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                                        <a href="/introduction/keyboard_layouts_and_sizes" className="w-full h-44 relative overflow-hidden shadow-xl">
+                                        <div className="w-full h-44 relative overflow-hidden shadow-xl">
                                             <img src={kyuu} alt="Kyuu Keyboard" className="absolute bottom-0 xl:-bottom-4 scale-125" />
-                                        </a>
+                                        </div>
                                         <h4 className="text-2xl font-medium text-first">65%</h4>
                                         <p className="text-lg text-center text-gray-600">The 65% is essentially a 60%, but with designated arrow keys for those who much prefer to have them. These are arguably the most common layout for custom mechanical keyboards due to the overall form factor.</p>
                                         <p className="text-base italic text-first">Credits: u/Cankr<br />Keyboard: Quantrik Kyuu</p>
                                     </div>
                                     <div className="flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                                        <a href="/introduction/keycaps" className="w-full h-44 relative overflow-hidden shadow-xl">
+                                        <div className="w-full h-44 relative overflow-hidden shadow-xl">
                                             <img src={pearl40} alt="Pearl40 Keyboard" className="absolute bottom-0 scale-125 xl:scale-100" />
-                                        </a>
+                                        </div>
                                         <h4 className="text-2xl font-medium text-first pt-3">40%</h4>
                                         <p className="text-lg text-center text-gray-600">If 60% keyboards weren't small enough, this could be something for you. 40%'s remove the number row as well as some modifiers, while mostly maintaining all the alpha keys. These require a strong use of programmed layers and are not for the faint of heart.</p>
                                         <p className="text-base italic text-first">Credits: Pearl Boards<br />Keyboard: Pearl 40%</p>
@@ -153,9 +153,9 @@ const KeyboardSize = () => {
                                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                                         <div className="w-full md:w-1/2 md:px-5">
-                                            <a href="/introduction/introduction_to_mechanical_keyboards" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                                            <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                                 <img src={odin} alt="Odin Keyboard" />
-                                            </a>
+                                            </div>
                                             <div>
                                                 <p className="text-gray-500 text-sm">Credits: KBDFans<br />Keyboard: KBDFans Odin</p>
                                             </div>
@@ -176,9 +176,9 @@ const KeyboardSize = () => {
                                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                                         <div className="w-full md:w-1/2 md:px-5">
-                                            <a href="/introduction/keyboard_layouts_and_sizes" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                                            <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                                 <img src={melody96} alt="Melody96 Keyboard" />
-                                            </a>
+                                            </div>
                                             <div>
                                                 <p className="text-gray-500 text-sm">Credits: CaselxASD<br />Keyboard: YMDK Melody96</p>
                                             </div>
@@ -199,9 +199,9 @@ const KeyboardSize = () => {
                                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                                         <div className="w-full md:w-1/2 md:px-5">
-                                            <a href="/introduction/keycaps" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                                            <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                                 <img src={kbd75} alt="KBD75 v2 Keyboard" />
-                                            </a>
+                                            </div>
                                             <div>
                                                 <p className="text-gray-500 text-sm">Credits: KBDFans<br />Keyboard: KBDFans KBD75 V2</p>
                                             </div>
@@ -222,9 +222,9 @@ const KeyboardSize = () => {
                                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                                         <div className="w-full md:w-1/2 md:px-5">
-                                            <a href="/introduction/switches" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                                            <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                                 <img src={kl90} alt="KL-90 Keyboard" />
-                                            </a>
+                                            </div>
                                             <div>
                                                 <p className="text-gray-500 text-sm">Credits: KikosLab<br />Keyboard: KikosLab KL-90</p>
                                             </div>
@@ -245,9 +245,9 @@ const KeyboardSize = () => {
                                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                                         <div className="w-full md:w-1/2 md:px-5">
-                                            <a href="/introduction/stabilizers" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                                            <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                                 <img src={falcon} alt="Matrix Falcon Keyboard" />
-                                            </a>
+                                            </div>
                                             <div>
                                                 <p className="text-gray-500 text-sm">Credits: 宸_-<br />Keyboard: Matrix Lab 6xv 2.0 Falcon</p>
                                             </div>
@@ -269,9 +269,9 @@ const KeyboardSize = () => {
                                 <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                                     <div className="flex flex-wrap items-stretch sm:-mx-3">
                                         <div className="w-full md:w-1/2 md:px-5">
-                                            <a href="/introduction/community" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                                            <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                                 <img src={polaris} alt="Polaris Keyboard" />
-                                            </a>
+                                            </div>
                                             <div>
                                                 <p className="text-gray-500 text-sm">Credits: ai03<br />Keyboard:ai03 Polaris</p>
                                             </div>
@@ -298,9 +298,9 @@ const KeyboardSize = () => {
                             <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                                 <div className="flex flex-wrap items-stretch sm:-mx-3 ">
                                     <div className="w-full md:w-1/2 md:px-5">
-                                        <a href="/introduction/introduction_to_mechanical_keyboards" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
-                                            <img src={police} alt="TGR Alice Keyboard" className="mt-12" />
-                                        </a>
+                                        <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                                            <img src={police} alt="TGR Alice Keyboard" />
+                                        </div>
                                         <div>
                                             <p className="text-gray-500 text-sm">Credits: LightningKeyboards<br />Keyboard: TGR Alice Polycarbonate</p>
                                         </div>
@@ -311,8 +311,7 @@ const KeyboardSize = () => {
                                                 <span className="block xl:inline">Alice Layout</span>
                                             </h1>
                                             <p className="mx-auto text-base text-gray-500 lg:text-xl md:max-w-3xl pb-5">This non-separated split 'ergonomic' layout was made popular after the release of the TGR Alice by Yuktsi, which is originally based off of Lin's EM7 keyboard. This layout
-                                                aims to give the typist a slightly more ergonomic layout, without having to make to much adjustments from those who came from the traditional staggered keyboard. The typing angles allow the user to keep their wrists straight and elbows out, and the split gives more room for your shoulders to relax. Ever since then, the Alice layout has become more available and more standard as
-                                                more custom keycap sets offer the proper coverage for these style of keyboards. There is also a similar layout called Arisu which is an Alice style keyboard with designated arrow keys.</p>
+                                                aims to give the typist a slightly more ergonomic layout, without having to make to much adjustments from those who came from the traditional staggered keyboard. The typing angles allow the user to keep their wrists straight and elbows out, and the split gives more room for your shoulders to relax.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -322,9 +321,9 @@ const KeyboardSize = () => {
                             <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                                 <div className="flex flex-wrap items-stretch sm:-mx-3">
                                     <div className="w-full md:w-1/2 md:px-5">
-                                        <a href="/introduction/keyboard_layouts_and_sizes" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                                        <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                             <img src={atlas} alt="Atlas Keyboard" />
-                                        </a>
+                                        </div>
                                         <div>
                                             <p className="text-gray-500 text-sm">Credits: Cannonkeys<br />Keyboard: Atlas</p>
                                         </div>
@@ -345,9 +344,9 @@ const KeyboardSize = () => {
                             <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                                 <div className="flex flex-wrap items-stretch sm:-mx-3">
                                     <div className="w-full md:w-1/2 md:px-5">
-                                        <a href="/introduction/keycaps" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                                        <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                             <img src={ergodox} alt="Ergodox Keyboard" />
-                                        </a>
+                                        </div>
                                         <div>
                                             <p className="text-gray-500 text-sm">Credits: Mintlodica<br />Keyboard: Ergodox EZ</p>
                                         </div>
@@ -368,9 +367,9 @@ const KeyboardSize = () => {
                             <div className="container items-center max-w-7xl px-8 mx-auto xl:px-5">
                                 <div className="flex flex-wrap items-stretch sm:-mx-3">
                                     <div className="w-full md:w-1/2 md:px-5">
-                                        <a href="/introduction/switches" className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                                        <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                             <img src={ramam6c} alt="Rama M6-C Macro" />
-                                        </a>
+                                        </div>
                                         <div>
                                             <p className="text-gray-500 text-sm">Credits: RAMA WORKS<br />Keyboard: Rama M6-C</p>
                                         </div>
@@ -395,47 +394,53 @@ const KeyboardSize = () => {
                     <h1 className="text-4xl tracking-tight text-center text-first mb-8">Keyboard Basic Chapters</h1>
                     <div className="grid grid-cols-3 gap-8 mt-10 sm:grid-cols-6 lg:grid-cols-9 sm:px-8 xl:px-0 text-center">
                         <div className="relative flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                            <a href="/introduction/introduction_to_mechanical_keyboards" className="w-full h-44 relative overflow-hidden rounded-m shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/introduction_to_mechanical_keyboards" className="w-full h-44 relative overflow-hidden rounded-m shadow-xl sm:rounded-xl">
                                 <img src={iron165} alt="Iron165 Keyboard" className="absolute bottom-0 xl:-bottom-6 scale-125 xl:scale-100" />
-                            </a>
+                            </Link>
                             <h4 className="text-2xl font-medium text-first">Introduction to Mechanical Keyboards</h4>
                         </div>
                         <div className="flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                            <a href="/introduction/keyboard_layouts_and_sizes" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/keyboard_layouts_and_sizes" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={tgrAlice} alt="TGR Alice Keyboard" className="absolute bottom-0 scale-125 xl:scale-100" />
-                            </a>
+                            </Link>
                             <h4 className="text-2xl font-medium text-first">Keyboard Layouts and Sizes</h4>
                         </div>
                         <div className="flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                            <a href="/introduction/keycaps" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/keycaps" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={keycaps} alt="GMK Noel and GMK Peach Blossom" className="absolute bottom-0 scale-125 xl:scale-100" />
-                            </a>
+                            </Link>
                             <h4 className="text-2xl font-medium text-first pt-3">Keycaps</h4>
                         </div>
                         <div className="flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                            <a href="/introduction/switches" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/switches" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={alpaca} alt="Alpaca Switches" className="absolute bottom-0 scale-125 xl:scale-110" />
-                            </a>
+                            </Link>
                             <h4 className="text-2xl font-medium text-first">Switches</h4>
                         </div>
                         <div className="flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                            <a href="introduction/stabilizers" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/stabilizers" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={stabs} alt="C3 Stabilizers" className="absolute -bottom-6" />
-                            </a>
+                            </Link>
                             <h4 className="text-2xl font-medium text-first">Stabilizers</h4>
                         </div>
                         <div className="flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                            <a href="/introduction/community" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl ">
+                            <Link to="/introduction/community" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl ">
                                 <img src={meetup} alt="Keyboard Meetup" className="absolute bottom-0 scale-125 xl:scale-100" />
-                            </a>
+                            </Link>
                             <h4 className="text-2xl font-medium text-first">Keyboard Community</h4>
                         </div>
                     </div>
                 </div>
             </section>
             <section className="px-2 py-12 bg-white md:px-0 text-first">
-                <div className="container max-w-7xl px-8 mx-auto xl:px-5 text-right">
-                    <a href="/wikeeb/introduction/keycaps" className="inline-flex items-center w-full px-6 py-3 text-xl font-medium  text-second bg-first md:px-3 md:w-auto rounded-xl lg:px-5 hover:bg-second hover:text-first focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-second">Keycaps ➜</a>
+                <div className="container max-w-7xl px-8 mx-auto xl:px-5 text-right flex justify-between">
+                    <div>
+                        <Link to="/introduction/introduction_to_mechanical_keyboards" className="inline-flex items-center w-full px-6 py-3 text-xl font-extrabold text-second bg-first md:px-3 md:w-auto rounded-xl lg:px-5 hover:bg-second hover:text-first focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-second">⇦ Introduction to Mechanical Keyboards</Link>
+                    </div>
+                    <div>
+                        <Link to="/introduction/keycaps" className="inline-flex items-center w-full px-6 py-3 text-xl font-extrabold  text-second bg-first md:px-3 md:w-auto rounded-xl lg:px-5 hover:bg-second hover:text-first focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-second">Keycaps ⇨</Link>
+
+                    </div>
                 </div>
             </section>
 

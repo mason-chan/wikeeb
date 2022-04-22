@@ -7,6 +7,8 @@ import keycaps from '../img/keycaps.jpg';
 import alpaca from '../img/alpaca.jpeg';
 import stabs from '../img/c3_stabs.jpg';
 import meetup from '../img/meetup.jpg';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link'
 
 
 const Intro = () => {
@@ -31,10 +33,10 @@ const Intro = () => {
 
                                 <h1 className="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl">Table of Contents</h1>
                                 <ul className="pl-16 text-lg list-disc">
-                                    <li><a href="#what" className="underline">What is a Mechanical Keyboard?</a></li>
-                                    <li><a href="#why" className="underline">Why use a Mechanical Keyboard?</a></li>
-                                    <li><a href="#components" className="underline">What Makes up a Mechanical Keyboard?</a></li>
-                                    <li><a href="#preface" className="underline">Before Moving Forward...</a></li>
+                                    <li><HashLink to="#what" className="underline">What is a Mechanical Keyboard?</HashLink></li>
+                                    <li><HashLink to="#why" className="underline">Why use a Mechanical Keyboard?</HashLink></li>
+                                    <li><HashLink to="#components" className="underline">What Makes up a Mechanical Keyboard?</HashLink></li>
+                                    <li><HashLink to="#preface" className="underline">Before Moving Forward...</HashLink></li>
                                 </ul>
 
                             </div>
@@ -138,39 +140,39 @@ const Intro = () => {
                 <h1 className="text-4xl tracking-tight text-center text-first mb-8">Keyboard Basic Chapters</h1>
                     <div className="grid grid-cols-3 gap-8 mt-10 sm:grid-cols-6 lg:grid-cols-9 sm:px-8 xl:px-0 text-center">
                         <div className="relative flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                            <a href="/introduction/introduction_to_mechanical_keyboards" className="w-full h-44 relative overflow-hidden rounded-m shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/introduction_to_mechanical_keyboards" className="w-full h-44 relative overflow-hidden rounded-m shadow-xl sm:rounded-xl">
                                 <img src={iron165} alt="Iron165 Keyboard" className="absolute -bottom-6 sm:-bottom-8 xs:-bottom-16 lg:bottom-0 xl:-bottom-6 scale-100 lg:scale-125 xl:scale-100" />
-                            </a>
+                            </Link>
                             <h4 className="text-2xl font-medium text-first">Introduction to Mechanical Keyboards</h4>
                         </div>
                         <div className="flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                            <a href="/introduction/keyboard_layouts_and_sizes" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/keyboard_layouts_and_sizes" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={tgrAlice} alt="TGR Alice Keyboard" className="absolute bottom-0 scale-125 xl:scale-100" />
-                            </a>
+                            </Link>
                             <h4 className="text-2xl font-medium text-first">Keyboard Layouts and Sizes</h4>
                         </div>
                         <div className="flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                            <a href="/introduction/keycaps" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/keycaps" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={keycaps} alt="GMK Noel and GMK Peach Blossom" className="absolute bottom-0 scale-125 xl:scale-100" />
-                            </a>
+                            </Link>
                             <h4 className="text-2xl font-medium text-first pt-3">Keycaps</h4>
                         </div>
                         <div className="flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                            <a href="/introduction/switches" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <Link to="/introduction/switches" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={alpaca} alt="Alpaca Switches" className="absolute bottom-0 scale-125 xl:scale-110" />
-                            </a>
+                            </Link>
                             <h4 className="text-2xl font-medium text-first">Switches</h4>
                         </div>
                         <div className="flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                            <a href="introduction/stabilizers" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+                            <Link to="introduction/stabilizers" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                                 <img src={stabs} alt="C3 Stabilizers" className="absolute -bottom-6" />
-                            </a>
+                            </Link>
                             <h4 className="text-2xl font-medium text-first">Stabilizers</h4>
                         </div>
                         <div className="flex flex-col items-center justify-start col-span-3 px-8 py-12 space-y-4 overflow-hidden sm:rounded-xl">
-                            <a href="/introduction/community" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl ">
+                            <Link to="/introduction/community" className="w-full h-44 relative overflow-hidden rounded-md shadow-xl sm:rounded-xl ">
                                 <img src={meetup} alt="Keyboard Meetup" className="absolute bottom-0 scale-125 xl:scale-100" />
-                            </a>
+                            </Link>
                             <h4 className="text-2xl font-medium text-first">Keyboard Community</h4>
                         </div>
                     </div>
@@ -178,7 +180,7 @@ const Intro = () => {
             </section>
             <section className="px-2 py-12 bg-white md:px-0 text-first">
                 <div className="container max-w-7xl px-8 mx-auto xl:px-5 text-right">
-                    <a href="/wikeeb/introduction/keyboard_layouts_and_sizes" className="inline-flex items-center w-full px-6 py-3 text-xl font-medium  text-second bg-first md:px-3 md:w-auto rounded-xl lg:px-5 hover:bg-second hover:text-first focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-second">Keyboard Layouts and Sizes ➜</a>
+                    <Link to="/introduction/keyboard_layouts_and_sizes" className="inline-flex items-center w-full px-6 py-3 text-xl font-medium  text-second bg-first md:px-3 md:w-auto rounded-xl lg:px-5 hover:bg-second hover:text-first focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-second">Keyboard Layouts and Sizes ➜</Link>
                 </div>
             </section>
 
