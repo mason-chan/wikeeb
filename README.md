@@ -12,9 +12,11 @@ Up until now, I've built about 20 custom mechanical keyboards, and still have mo
 
 ## Details
 
-The technologies used to make this website are React v18.0, React-Router v6.3, and Tailwind CSS v3.0.24. The focus of this project was utilizing React-Router for the routing the different pages and Tailwind CSS for ease of styling. I started out using the create-react-app boilerplate, followed by adding react-router and then tailwindcss. I spent most of my time figuring out the styling for the pages and the overall layout, as well as making the website mobile-friendly. 
+The technologies used to make this website are React v18.0, React-Router v6.3, and Tailwind CSS v3.0.24. The focus of this project was utilizing React-Router for the routing to different pages and Tailwind CSS for ease of styling. I started out using the create-react-app boilerplate, followed by adding react-router and then tailwindcss. I spent most of my time figuring out the styling for the pages and the overall layout, as well as making the website viewable on mobile devices. 
+
+One hickup that I came across was figuring out how to have the website work on Github Pages. After some research I found out I would have to change my initial approach of using BrowserRouter to HashRouter. I had to tweak the code to implement the change, and also had an issue with my table of contents links. Ended up having to use a package called react-router-hash-link to allow scrolling to a specific part of the page when clicked.
 
 ## Project Status
 
-This project is still in development. The overall layout and navigations are complete, and some of the introduction chapters are complete as well. Currently working on finishing the rest of the current chapters.
+This project is still in development. The overall layout and navigations are complete, and the first three chapters of the introduction course are written up. Currently working on writing up the rest of the chapters and touching up on the styling.
 
