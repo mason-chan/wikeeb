@@ -4,6 +4,8 @@ Wikeeb is a wiki style page created for learning about all things custom mechani
 
 [View live here!](https://mctekno.github.io/wikeeb/)
 
+All photos used belong to their respective owners. You can find the credit below each picture and I recommend you check them out as many of them are prominent members of the keyboard community that create great stuff! If you are the owner and would like me to remove an image, please feel free to reach out!
+
 ![Wikeeb](src/img/WiKeeb.png?raw=true)
 
 ## Purpose
